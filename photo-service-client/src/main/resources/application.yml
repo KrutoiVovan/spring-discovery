@@ -1,0 +1,5 @@
+server:
+  port: 7831
+spring:
+  application:
+    name: photo-service-client
