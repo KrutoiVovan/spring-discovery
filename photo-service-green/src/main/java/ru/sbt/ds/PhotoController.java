@@ -12,6 +12,6 @@ import static java.nio.file.Files.readAllBytes;
 public class PhotoController {
     @RequestMapping(value = "/img", produces = "image/jpeg")
     public byte[] getById(long id) throws IOException {
-        return readAllBytes(new File("C:\\Work\\spring-discovery\\photo-service-green\\src\\main\\java\\ru\\sbt\\ds\\Koala.jpg").toPath());
+        return readAllBytes(new File("photo-service-green/src/main/resources/Koala.jpg").toPath());
     }
 }
